@@ -1,0 +1,14 @@
+===Laravel Authentication ===
+breeze
+1.composer require laravel/breeze --dev
+2.php artisan breeze:install 
+                    blade
+                    yes [dark
+                    no [php unit
+3.migration file korbo and model er kaj  and then  
+ migration command dibo 
+ 
+                 
+
+
+
