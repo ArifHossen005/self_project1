@@ -11,8 +11,12 @@ breeze
  =====laravel seed ====
 1.php artisan make:seeder UserTableSeeder
 2.then amake seeder er vitore data dite hobe 
-3. go to factory er vitore user factory 
+3. go to factory er vitore user factory vitore defination function er vitore migration 
+column er jonno fake data banabo 
+4.then amake database seeder e jaite hobe 
+and run function er sob bolte hobe 
 
+5.php artisan migrate:fresh --seed
 
 
 
