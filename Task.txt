@@ -7,8 +7,14 @@ breeze
                     no [php unit
 3.migration file korbo and model er kaj  and then  
  migration command dibo 
- 
-                 
+
+ =====laravel seed ====
+1.php artisan make:seeder UserTableSeeder
+2.then amake seeder er vitore data dite hobe 
+3. go to factory er vitore user factory 
+
+
+
 
 
 
