@@ -11,12 +11,29 @@ breeze
  =====laravel seed ====
 1.php artisan make:seeder UserTableSeeder
 2.then amake seeder er vitore data dite hobe 
-3. go to factory er vitore user factory vitore defination function er vitore migration 
+3. go to factory er vitore user factory vitore defination
+ function er vitore migration 
 column er jonno fake data banabo 
 4.then amake database seeder e jaite hobe 
 and run function er sob bolte hobe 
 
 5.php artisan migrate:fresh --seed
+
+====all typer of user different profile view====
+1.create a controller 
+    php artisan make:controller AdminController
+     php artisan make:controller AgentController
+
+2. ey controller er under e view banabo 
+    admin
+        admin_dashboard.blade.php
+
+3.also route file 
+Route::get('/admin/dashboard',[AdminController::class,'AdminDashboard'])->name('admin.dashbaord');      
+
+
+
+
 
 
 
