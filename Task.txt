@@ -34,8 +34,19 @@ Route::get('/admin/dashboard',[AdminController::class,'AdminDashboard'])->name('
 
 
 
+====admin/agent je login korbe tar dashbaord e niye jabe ====
 
+app/http/Controller/Auth/AuthenticatedSessionController 
+er vitore store function er modde  amra condition dibo 
+which is 
+  $url = '';
 
+        if ($request->user()->role==='admin')
+        {
+            $url = '/admin/dashboard';
+        }
+
+ Then return korte hobe i mean intend korbo$uel       
 
 
 
