@@ -49,4 +49,7 @@ which is
  Then return korte hobe i mean intend korbo$uel       
 
 
-
+======ekjon  onno jon er profile jete parbe nah =====
+1.php artisan make:middleware Role 
+2.kernel.php te protected $middleware er vitore 
+        'role' => \App\Http\Middleware\Role::class,
