@@ -53,3 +53,11 @@ which is
 1.php artisan make:middleware Role 
 2.kernel.php te protected $middleware er vitore 
         'role' => \App\Http\Middleware\Role::class,
+
+
+
+=====Name,mobile,email etc diye o login kora jabe =====
+
+1.views/auth/login.php er vitore lable diye ki ki  login korte chay 
+2.app/http/Request/Auth/LoginRequest 
+ er vitore kaj korte hobe 
