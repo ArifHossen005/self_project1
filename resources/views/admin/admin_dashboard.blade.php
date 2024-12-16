@@ -13,7 +13,6 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap" rel="stylesheet">
   
-    <!-- Corrected asset() calls -->
     <link rel="stylesheet" href="{{ asset('assets/vendors/core/core.css') }}">
     <link rel="stylesheet" href="{{ asset('assets/vendors/chartist/chartist.min.css') }}">
     <link rel="stylesheet" href="{{ asset('assets/fonts/feather-font/css/iconfont.css') }}">
